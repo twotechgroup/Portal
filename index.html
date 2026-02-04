@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Tech Group | Global AI Systems</title>
+    
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', 'YOUR_PIXEL_ID_HERE'); // REPLACE WITH YOUR PIXEL ID
+    fbq('track', 'PageView');
+    </script>
+
+    <style>
+        :root { --gold: #ffcc33; --dark: #050505; --light: #ffffff; --green: #25d366; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--light); margin: 0; overflow-x: hidden; }
+        
+        .announcement { background: var(--gold); color: #000; padding: 10px; text-align: center; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; }
+        
+        header { padding: 30px; text-align: center; border-bottom: 1px solid #222; }
+        .logo { font-size: 2rem; font-weight: 900; color: var(--gold); letter-spacing: 5px; }
+
+        .hero { padding: 60px 20px; text-align: center; }
+        h1 { font-size: 3rem; margin: 0; background: linear-gradient(to right, #fff, var(--gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        /* Progress Bar */
+        .progress-container { width: 100%; max-width: 400px; background: #222; height: 10px; border-radius: 5px; margin: 20px auto; overflow: hidden; }
+        .progress-fill { width: 84%; height: 100%; background: var(--gold); }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; padding: 40px 20px; max-width: 1200px; margin: auto; }
+        
+        .card { background: #111; border: 1px solid #333; padding: 40px; border-radius: 24px; position: relative; transition: 0.4s; }
+        .card:hover { border-color: var(--gold); transform: translateY(-10px); }
+        
+        .badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #fff; color: #000; padding: 5px 15px; border-radius: 50px; font-size: 0.7rem; font-weight: bold; }
+        
+        .price { font-size: 3rem; font-weight: 900; margin: 20px 0; }
+        .old-price { font-size: 1.2rem; text-decoration: line-through; color: #666; }
+
+        .btn { 
+            display: block; padding: 20px; background: var(--gold); color: #000; text-decoration: none; 
+            border-radius: 12px; font-weight: bold; margin-top: 20px; transition: 0.3s;
+        }
+        .btn-alt { background: #fff; }
+
+        footer { padding: 40px; text-align: center; border-top: 1px solid #222; color: #666; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <div class="announcement">GLOBAL LAUNCH: FOUNDING MEMBER SLOTS ARE OPEN</div>
+
+    <header>
+        <div class="logo">TWO TECH GROUP</div>
+    </header>
+
+    <section class="hero">
+        <h1>GLOBAL REVENUE SYSTEMS</h1>
+        <p style="color: #888; max-width: 600px; margin: 20px auto;">We build the high-speed infrastructure that Dubai's elite use to dominate. Now open for global partnerships.</p>
+        
+        <div class="progress-container">
+            <div class="progress-fill"></div>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--gold);">⚠️ 84/100 FOUNDING SPOTS FILLED</p>
+    </section>
+
+    <div class="grid">
+        <div class="card">
+            <div class="badge">LIMITED TIME</div>
+            <h3>Partner Network</h3>
+            <p>Get our sales playbooks, scripts, and 15-25% commissions on all global deals.</p>
+            <div class="old-price">$1,000</div>
+            <div class="price">$200</div>
+            <a href="https://wa.me/971552769279?text=I%20WANT%20TO%20JOIN%20AS%20A%20FOUNDING%20PARTNER" 
+               class="btn" onclick="fbq('track', 'AddToCart');">JOIN THE ARMY</a>
+            <p style="font-size: 0.7rem; margin-top: 15px; color: #555;">One-time payment. Global access.</p>
+        </div>
+
+        <div class="card" style="border-color: var(--gold);">
+            <div class="badge" style="background: var(--gold);">HIGH-TICKET</div>
+            <h3>AI Agency Service</h3>
+            <p>Full-stack AI Agents, custom funnels, and lead qualification systems for businesses.</p>
+            <div class="price" style="color: var(--gold);">$2,000+</div>
+            <a href="https://wa.me/971552769279?text=I%20NEED%20HIGH-TICKET%20AI%20SERVICES" 
+               class="btn btn-alt" onclick="fbq('track', 'Lead');">REQUEST AUDIT</a>
+            <p style="font-size: 0.7rem; margin-top: 15px; color: #555;">Limited to 3 new clients per month.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 TWO TECH GROUP | DUBAI • NEW YORK • LONDON
+    </footer>
+
+</body>
+</html>
